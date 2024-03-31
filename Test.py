@@ -1,6 +1,6 @@
 so= int(input("Nhập số:"))
 x = 2
-a = {}
+a = set(
 while so%x == 0 and x<=so:
     a.add(x)
     x = x+1
